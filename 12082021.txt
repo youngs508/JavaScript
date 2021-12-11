@@ -1,0 +1,16 @@
+for (let i = 0; i<students.length; i++) {
+    if (students[i].score == 90) {
+        console.log(students[i].name);
+    }
+} 
+
+f.sort();
+let t = '';
+for (let i = 0; i<f.length; i++) {
+    t += f[i].toString();
+    if (i < f.length - 1) {
+        t += ', ';
+    }
+}
+console.log(t);
+
